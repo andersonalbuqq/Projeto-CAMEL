@@ -14,6 +14,7 @@
     /* CORES */
     --cinzafundo: #2D3142;
     --cinzaClaro: #2d3142b5;
+    --cinzaClaroFundo: #F2F2F2;
     --cinzaCat: #D9D9D9;
     --laranja: #F29F05;
     --branco: #FFFFFF;
@@ -106,6 +107,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #f2bf808a;
 }
 
 #main_container{
@@ -161,12 +163,16 @@ main{
     align-items: center;
     justify-content: space-around;
     margin-top: 35px;
+    background-color: var(--cinzaClaroFundo);
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .carrossel_cat>button{
     background-color: rgba(255, 255, 255, 0);
     border: none;
     height: fit-content;
+    padding: 15px;
 }
 
 .carrossel_cat>a{
@@ -194,6 +200,7 @@ main{
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 10px;
     width: 100%;
+    margin-bottom: 35px;
 }
 
 .img_promo {
@@ -203,6 +210,96 @@ main{
     max-width: 150px;
 }
 
+#prod_promo{
+    background-color: var(--cinzaClaroFundo);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
 #prod_promo>h3{
-    margin: 40px ;
+    margin: 40px;
+}
+
+#itens_promo>a{
+    text-decoration: none;
+    color: black;
+}
+
+.preco>span{
+    color: var(--laranja);
+    margin-left: 10px;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+#prod_destaque{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 35px 0;
+    padding: 30px 15px;
+    background-color: var(--cinzaClaroFundo);
+    border-radius: 10px;
+}
+
+#prod_destaque>img{
+    margin: auto;
+}
+
+#info{
+    margin: 0 50px;
+}
+
+#info>p{
+    margin:20px 0;
+    text-align: justify;
+}
+
+#info>span{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#info>a{
+    color: var(--laranja);
+}
+
+footer{
+    background-color: var(--cinzafundo);
+    height: 50px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 100%;
+    padding-right: 50px;
+}
+
+footer>img{
+   height: 100%;
+    margin: auto;
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 0.em;
+}
+
+#redes_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#redes_container>a{
+    height: 75%;
+}
+
+.redes{
+    height: 100%;
 }
