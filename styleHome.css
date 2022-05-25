@@ -418,6 +418,11 @@ footer>div{
         grid-template-columns: 50% 50%;
     }
 
+    #prod_destaque{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     footer{
         display: flex;
         flex-direction: column;
