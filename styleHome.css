@@ -369,6 +369,10 @@ footer>div{
 }
 
 @media(max-width: 900px){
+    #categorias_container{
+        grid-template-columns: 50% 50%;
+    }
+
     #principais_cat{
         display: none;    
     }
