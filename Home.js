@@ -1,10 +1,7 @@
-const publis = ["Imagens/img1.jpg","Imagens/img2.jpg","Imagens/img3.jpg","Imagens/img4.jpg"];
 
-function publicidade(img){
-    document.getElementById('img_carro').src=publis[img];
-    img = img<publis.length-1 ? img+1: 0;
-    let timer = setTimeout(publicidade, 3000, img);
-};
+$('.carousel').carousel({
+    interval: 3000
+})
 
 const categorias = [
     {
