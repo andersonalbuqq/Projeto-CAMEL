@@ -6,4 +6,7 @@ Este projeto foi proposto pela Faculdade Nova Roma em parceria com a CAMEL Eletr
 
 ## Confira!
 
-Você pode conferir o resultado através do link: https://andersonalbuqq.github.io/Projeto-CAMEL/Home.html
+Você pode conferir o resultado onde foram separadas as tarefas em sprints que pode ser conferidos os resultados de cada seção a seguir: 
+
+## Home
+https://andersonalbuqq.github.io/Projeto-CAMEL/pagina-home/pagina-home.html 
