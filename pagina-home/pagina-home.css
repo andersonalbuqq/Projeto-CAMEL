@@ -18,7 +18,7 @@
     --cor4: #D9D9D9;
     --cor5: #F29F05;
     --cor6: #FFFFFF;
-    --cor7: #f2bf808a; 
+    --cor7: #EAEDED; 
 }
 
 /* Classes com reutilização ao longo do código */
@@ -38,6 +38,10 @@
 }
 
 /* Configurações gerais da pagina Home */
+
+body{
+    background-color: var(--cor7);
+}
 
 main{
     margin: 0 50px;
@@ -93,7 +97,64 @@ main{
     margin: 0px;
 }
 
-/* Seção de configurações dos produtos em promoção */
+
+
+
+
+/* Seção de configurações dos produtos em promoção (Com bootstrap) */
+
+.link{
+    color: var(--cor1);
+}
+
+.link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.esp_titulo{
+    padding: 50px 0;
+}
+
+.img_promocao{
+    background-color: var(--cor4);
+    border-radius: 10px !important;
+    max-width: 150px;
+    width: 100%;
+}
+
+.raio{
+    border-radius: 10px;
+}
+
+.sem_quebra{
+    white-space: nowrap;
+}
+
+.espacamento{
+    margin-bottom: 0 !important;
+}
+
+/* Seção de configurações dos produto em destaque (Com bootstrap) */
+.fundo{
+    background-color: var(--cor3);
+}
+
+.justifica{
+    text-align: justify;
+}
+
+.teste{
+    display: block;
+    text-align: end !important;
+}
+
+
+
+
+
+
+/* Seção de configurações dos produtos em promoção (Sem Bootstrap) */
 #prod_promo{
     background-color: var(--cor3);
 }
@@ -130,7 +191,7 @@ main{
     margin-bottom: 0px;
 }
 
-/* Seção de configurações dos produto em destaque */
+/* Seção de configurações dos produto em destaque (Sem Bootstrap)*/
 
 #prod_destaque{
     display: grid;
@@ -154,16 +215,16 @@ main{
     text-align: justify;
 }
 
-#info>span{
+#info>p>span{
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    text-align: right;
 }
 
 #info>a{
     color: var(--cor5);
-    
+    display: block;
+    text-align: end;
 }
 
 /* Configurações para responsívidade */

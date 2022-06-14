@@ -10,15 +10,12 @@
 
     <!-- Adicionando o Bootstrap -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Arquivos de CSS e JS -->
     
     <link rel="stylesheet" href="pagina-home.css">
-    <script src="pagina-home.js" defer></script>
+
 </head>
 
 <body>
@@ -29,7 +26,7 @@
     
     <main>
         <div id="main_container">
-            
+
             <!-- publicidades -->
             <section class="alinhar">
                 <div id="publi" class="carousel slide" data-ride="carousel">
@@ -55,7 +52,7 @@
                     </div>
                 </div>   
             </section>
-
+            
             <!-- categorias -->
             <section>
                 <div id="carro_cat" class="carousel slide secao" data-ride="carousel">
@@ -115,8 +112,112 @@
                 </div>   
             </section>
 
-            <!-- produtos em promoção -->
-            <section id="prod_promo" class="alinhar secao">
+            <!-- produtos em promoção (Com Bootstrap) -->
+            <section>
+                <div class="raio mx-sm-5 fundo mb-5">
+                    <h3 class="text-center esp_titulo">Produtos em Promoção (B)</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/Lamp1.png" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Lâmpada A</strong></p>
+                                    <p  class="text-center">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/Lamp2.png" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Lâmpada B</strong></p>
+                                    <p  class="text-center">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/Lamp3.png" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Lâmpada C</strong></p>
+                                    <p  class="text-center">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/Lamp4.png" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Lâmpada D</strong></p>
+                                    <p  class="text-center">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/Lamp5.png" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Lâmpada E</strong></p>
+                                    <p  class="text-center ">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">  R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/Lamp6.png" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Lâmpada F</strong></p>
+                                    <p  class="text-center">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/cat6.jpg" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Arandela</strong></p>
+                                    <p  class="text-center">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <a href="" class="link">
+                                    <img src="Imagens/cat7.jpg" class="img-thumbnail mx-auto d-block img_promocao" alt="">
+                                    <p class="text-center espacamento"><strong>Abajur</strong></p>
+                                    <p  class="text-center">
+                                        <del class="sem_quebra">R$ 59,99</del> <span class="text-warning sem_quebra">R$ 44,99</span>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- produto em destaque (Com Bootstrap) -->
+            <section class="mx-sm-5 raio fundo">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="text-center my-5  ">Lâmpada F</h3>
+                        <p class="justifica px-3 px-md-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit ut explicabo repellendus nesciunt ab voluptatem. Itaque numquam et dolorum fugiat.
+                        <br><br>
+                        <span><strong>R$ 34,99</strong></span>
+                        <a href="#" class="text-warning teste">Mais informações</a>
+                    </p>
+                    </div>
+                    <div class="col-6 d-flex">
+                        <img src="Imagens/Lamp6.png" class="mx-auto d-block align-self-center img-fluid" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- produtos em promoção (Sem Bootstrap) -->
+            <!-- <section id="prod_promo" class="alinhar secao">
                 <h3>Produtos em Promoção</h3>
                 <div id="itens_promo">
                     <a href="">
@@ -178,18 +279,19 @@
                         </div>
                     </a>
                 </div>
-            </section>
+            </section>             -->
 
-            <!-- produto em destaque -->
-            <section id="prod_destaque" class="secao">
+            <!-- produto em destaque (Sem Bootstrap) -->
+            <!-- <section id="prod_destaque" class="secao">
                 <div id="info">
                     <h3>Lâmpada F</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit ut explicabo repellendus nesciunt ab voluptatem. Itaque numquam et dolorum fugiat.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit ut explicabo repellendus nesciunt ab voluptatem. Itaque numquam et dolorum fugiat.
                     <span>R$ 34,99</span>
+                    </p>
                     <a href="#">Mais informações</a>
                 </div>
                 <img src="Imagens/Lamp6.png" alt="">
-            </section>
+            </section> -->
             
         </div>
     </main>
@@ -197,5 +299,13 @@
     <footer>
         <!-- Esperando desenvolvimento () -->
     </footer>
+    
+    <script src="pagina-home.js" defer></script>
+
+    <!-- Adicionando o Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
