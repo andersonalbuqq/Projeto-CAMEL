@@ -80,7 +80,7 @@ main{
 }
 
 
-#carro_cat{
+/* #carro_cat{
     background-color: var(--cor3);
     color: var(--cor1);
 }
@@ -95,7 +95,7 @@ main{
 
 .item_cat > p{
     margin: 0px;
-}
+} */
 
 
 
@@ -268,5 +268,92 @@ main{
      /* Seção de configurações do carrosel de categorias */
     .linha{
         font-size: 0.6em;
+    }
+}
+
+
+/* Configurações do footer */
+
+footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.corfooter{
+    background-color: #2D3142;
+}
+
+footer h3{
+    font-size: small;
+    color: white;
+}
+
+footer h4{
+    font-size: small;
+    color: white;
+}
+
+.footer-space{
+    padding: 10px 80px;
+}
+
+.fa-brands{
+    color: gray;
+    padding: 10px;
+}
+
+.fa-solid{
+    color: gray;
+    padding: 10px;
+}
+
+
+
+
+
+/* configurações do carrossel de configurações usando splideJs */
+.splide{
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+}
+
+.splide p{
+    margin-bottom: 0;
+}
+
+.splide__slide>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--cor1);
+}
+
+.splide__slide>a:hover{
+    text-decoration: none;
+}
+
+.splide__slide img{
+    border-radius: 50%;
+    background-color: var(--cor4);
+    width: 15vw;
+    max-width: 150px;
+}
+
+.splide__arrow{
+    background-color: var(--cor3);
+}
+
+.splide__arrow svg{
+    fill: var(--cor5);
+}   
+
+@media(max-width: 600px){
+    .splide__arrow{
+        display: none;
     }
 }
