@@ -224,7 +224,7 @@
             </section>
 
             <!-- produto em destaque (Com Bootstrap) -->
-            <section class="mx-sm-5 raio fundo">
+            <section class="mx-sm-5 my-5 raio fundo">
                 <div class="row w-100">
                     <div class="col-6">
                         <h3 class="text-center my-5  ">Lâmpada F</h3>
@@ -241,35 +241,53 @@
             </section>
 
             <!-- Categoria destaque -->
-            <!-- <section id="splide2" class="splide mx-sm-5 my-5 raio fundo p-2">
-               <div>
+            <section id="splide2" class="splide mx-sm-5 my-5 raio fundo p-2">
+               <div class="titulo_cat my-3">
                     <h3>Lâmpadas</h3>
-                    <a href="#">Veja mais</a>
+                    <a href="#" class="ml-5">Veja mais</a>
                </div>
                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
+                <ul class="splide__list">
+                    <li class="splide__slide splide2">
+                        <a href="#">
                             <img src="Imagens/Lamp1.png" alt="">
-                        </li>
-                        <li class="splide__slide">
+                            <p class="py-2">Lâmpada A</p>
+                        </a>
+                    </li>
+                    <li class="splide__slide splide2">
+                        <a href="#">
                             <img src="Imagens/Lamp2.png" alt="">
-                        </li>
-                        <li class="splide__slide">
+                            <p class="py-2">Lâmpada B</p>
+                        </a>
+                    </li>
+                    <li class="splide__slide splide2">
+                        <a href="#">
                             <img src="Imagens/Lamp3.png" alt="">
-                        </li>
-                        <li class="splide__slide">
+                            <p class="py-2">Lâmpada C</p>
+                        </a>
+                    </li>
+                    <li class="splide__slide splide2">
+                        <a href="#">
                             <img src="Imagens/Lamp4.png" alt="">
-                        </li>
-                        <li class="splide__slide">
+                            <p class="py-2">Lâmpada D</p>
+                        </a>
+                    </li>
+                    <li class="splide__slide splide2">
+                        <a href="#">
                             <img src="Imagens/Lamp5.png" alt="">
-                        </li>
-                        <li class="splide__slide">
+                            <p class="py-2">Lâmpada E</p>
+                        </a>
+                    </li>
+                    <li class="splide__slide splide2">
+                        <a href="#">
                             <img src="Imagens/Lamp6.png" alt="">
-                        </li>
-                    </ul>
+                            <p class="py-2">Lâmpada F</p>
+                        </a>
+                    </li>
+                </ul>
                </div>
 
-            </section> -->
+            </section>
 
             <!-- categorias -->
             <!-- <section>
@@ -447,13 +465,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
 
     <script>
-        var splide = new Splide( '.splide', {
+        var splide1 = new Splide( '#splide1', {
+            type   : 'loop',
+            perPage: 4,
+            drag   : 'free',
+        } );
+        splide1.mount();
+
+        var splide2 = new Splide( '#splide2', {
         type   : 'loop',
         perPage: 4,
         drag   : 'free',
         } );
 
-        splide.mount();
+        splide2.mount();
 
     </script>
 
