@@ -44,11 +44,23 @@ function openMenu() {
   splide.mount()
   
 
-  function mudar(){
-    var drop = document.getElementsByClassName("drop")[0];
-    var dig = document.getElementsByClassName("dig")[0];
-    if(drop.value === "10+"){
+  // seletor de quantidades.
+
+  var drop = document.getElementsByClassName("drop")[0];
+  var dig = document.getElementsByClassName("dig")[0];
+
+  function digitar(){
+    if(drop.value == "10+"){
       dig.style.display = "inline";
       drop.style.display = "none";
+      dig.value = 10;
+    } 
+  }
+
+  function selecionar(){
+    if(!(dig.value >=10)){
+      dig.style.display = "none";
+      drop.style.display = "inline";
+      drop.value = 9;
     }
   }
