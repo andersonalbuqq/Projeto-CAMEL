@@ -291,6 +291,10 @@ main{
   margin-bottom: 15px;
 }
 
+.check:checked{
+  accent-color: var(--orange-color);
+}
+
 .img_prod{
   width: 100%;
   max-width: 200px;
